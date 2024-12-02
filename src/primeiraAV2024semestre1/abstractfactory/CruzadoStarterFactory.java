@@ -7,7 +7,8 @@ public class CruzadoStarterFactory {
 	
 	public EspadaBuilder getEspada() {
 		EspadaBuilder espada = new EspadaBuilder();
-		espada.build();
+		espada.reset();
+		espada.habilitar();
 		return espada;
 	}
 	

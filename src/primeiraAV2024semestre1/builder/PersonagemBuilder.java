@@ -20,7 +20,7 @@ public abstract class PersonagemBuilder {
 	public Personagem build() {
 		return null;
 	}
-	public void addArma() {
+	public void addArma(Arma arma) {
 		
 	}
 }
